@@ -20,33 +20,17 @@ Front-end app for the manuals format on GOV.UK
 - [https://github.com/alphagov/static](https://github.com/alphagov/static) – Provides static assets (JS/CSS)
 - [https://github.com/alphagov/content-store](https://github.com/alphagov/content-store) – Provides content
 
-
-## Installation and running
-
-In a terminal, run:
-
-```
-./startup.sh
-```
-
-or using bowler:
-
-`bowl manuals-frontend`
-
-If you are using the GDS development virtual machine then the application will be available on the host at http://manuals-frontend.dev.gov.uk/
-
 ## Running the tests
 
 The test suite includes testing against govuk-content-schemas, so you will need a copy of this repo on your file system. By default this should be in a sibling directory to your project. Alternatively, you can specify their location with the GOVUK_CONTENT_SCHEMAS_PATH environment variable.
 
 jasmine tests are mounted at http://manuals-frontend.dev.gov.uk/specs
 
-All tests can be run using `bundle exec rake` as well.
+All tests can be run using `bundle exec rake`.
 
 ## Viewing a manual
 
-You can see the content design manual at http://manuals-frontend.dev.gov.uk/guidance/content-design
-
+You can see the content design manual at http://manuals-frontend.dev.gov.uk/guidance/content-designß
 
 ## Publishing a manual on dev
 
