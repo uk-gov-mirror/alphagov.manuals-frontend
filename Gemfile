@@ -11,7 +11,7 @@ gem "plek", "3.0.0"
 
 gem "govuk_ab_testing"
 gem "govuk_app_config", "~> 2.1.2"
-gem "govuk_publishing_components", "~> 21.52.0"
+gem "govuk_publishing_components", git: 'https://github.com/alphagov/govuk_publishing_components.git', branch: 'up-limit-for-list-images'
 
 group :development do
   gem "better_errors"
